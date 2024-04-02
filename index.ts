@@ -7,7 +7,7 @@ let answer = await inquirer.prompt([
     {
         name: "guessedGame",
         type: "number",
-        message: "Select between 1 to 10 :",
+        message: "Select number between 1 to 10 :",
     },
 ]);
 if (randomNumber === answer.guessedGame) {
